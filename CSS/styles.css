@@ -10,6 +10,12 @@
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
+nav {
+  letter-spacing: 0.02em;
+}
+a {
+  text-decoration: none;
+}
 .logo {
   font-family: Raleway, cursive;
   font-size: 26px;
@@ -47,6 +53,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 .phone {
   color: var(--primary-text-color);
@@ -76,6 +83,7 @@ body {
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .button {
@@ -86,14 +94,17 @@ body {
   font-size: 16px;
   line-height: 1.8;
   cursor: pointer;
+  letter-spacing: 0.06em;
 }
 .button.primary {
   color: var(--primary-bg-color);
   background-color: var(--accent-text-color);
+  letter-spacing: 0.03em;
 }
 .button.secondary {
   color: var(--title-text-color);
   background-color: #f5f4fa;
+  letter-spacing: 0.03em;
 }
 
 .feature-list .title {
@@ -117,6 +128,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .section-title {
