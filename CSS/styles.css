@@ -3,6 +3,7 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --primary-bg-color: #ffffff;
+  --accent-bg-color: #2F303A;
 }
 
 .page {
@@ -21,6 +22,9 @@
 .logo-title {
   color: var(--accent-text-color);
   font-family: Raleway, cursive;
+}
+.logo-text {
+  color: var(--primary-bg-color);
 }
 .list {
   list-style: none;
@@ -64,6 +68,7 @@ body {
   line-height: 1.7;
 }
 .hero {
+  background-color: var(--accent-bg-color);
 }
 .hero-title {
   color: var(--primary-bg-color);
@@ -138,4 +143,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
+}
+footer {
+  background-color: var(--accent-bg-color);
 }
