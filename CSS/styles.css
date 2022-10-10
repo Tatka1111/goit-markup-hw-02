@@ -180,14 +180,17 @@ body {
 .contact-list {
   list-style: none;
 }
-.contact-list .link:hover,
-.contact-list .link:focus {
-  color: var(--accent-text-color);
+footer {
+  background-color: var(--accent-bg-color);
 }
 .contact-address {
   color: var(--primary-bg-color);
   font-size: 14px;
   line-height: 1.7;
+}
+.contact-address:hover,
+.contact-address:focus {
+  color: var(--accent-text-color);
 }
 .contact-email,
 .contact-phone {
@@ -195,8 +198,13 @@ body {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
-footer {
-  background-color: var(--accent-bg-color);
+.contact-email:hover,
+.contact-email:focus {
+  color: var(--accent-text-color);
+}
+.contact-phone:hover,
+.contact-phone:focus {
+  color: var(--accent-text-color);
 }
 address {
   font-family: 'Roboto';
@@ -205,7 +213,7 @@ address {
   font-size: 14px;
   line-height: 1.7;
 }
-address:hover,
-address:focus {
+.contact-address:hover,
+.contact-address:focus {
   color: var(--accent-text-color);
 }
