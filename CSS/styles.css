@@ -25,6 +25,12 @@ a {
 .link:hover {
   color: #000000;
 }
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
 .logo-title {
   color: var(--accent-text-color);
   font-family: Raleway, cursive;
@@ -99,11 +105,17 @@ body {
 .button.primary {
   color: var(--primary-bg-color);
   background-color: var(--accent-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 .button.secondary {
   color: var(--title-text-color);
   background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 
@@ -112,9 +124,14 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
+  letter-spacing: 0.03em;
 }
 .feature-list {
   list-style: none;
+  color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .team-title {
@@ -122,6 +139,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.team-list {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .gallary-title {
   color: var(--title-text-color);
@@ -129,6 +153,12 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
+.gallary .text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 
 .section-title {
