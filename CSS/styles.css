@@ -72,14 +72,15 @@ a {
 .contacts .link:focus {
   color: var(--accent-text-color);
 }
-
+.phone .link:hover,
+.phone .link:focus {
+  color: var(--accent-text-color);
+}
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.03em;
-  font-size: 14px;
-  line-height: 1.7;
+
 }
 .hero {
   background-color: var(--accent-bg-color);
@@ -148,6 +149,7 @@ body {
   letter-spacing: 0.03em;
 }
 .team-list {
+  list-style: none;
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.2;
@@ -160,7 +162,8 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.gallary .text {
+.gallary-list {
+  list-style: none;
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.9;
@@ -199,4 +202,8 @@ address {
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.7;
+}
+address .link:hover,
+address .link:focus {
+  color: var(--accent-text-color);
 }
