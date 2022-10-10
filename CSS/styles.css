@@ -160,7 +160,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.gallary .text {
+.gallary-text {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.9;
@@ -196,8 +196,7 @@ footer {
   background-color: var(--accent-bg-color);
 }
 address {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: 'Roboto';
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
