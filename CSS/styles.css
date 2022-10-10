@@ -68,12 +68,12 @@ a {
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
-.contacts .link:hover,
-.contacts .link:focus {
+.contacts:hover,
+.contacts:focus {
   color: var(--accent-text-color);
 }
-.phone .link:hover,
-.phone .link:focus {
+.phone:hover,
+.phone:focus {
   color: var(--accent-text-color);
 }
 body {
@@ -120,8 +120,8 @@ body {
   line-height: 1.6;
   letter-spacing: 0.03em;
 }
-.button.secondary .link:hover,
-.button.secondary .link:focus {
+.button.secondary:hover,
+.button.secondary:focus {
   color: var(--primary-bg-color);
   background-color: var(--accent-text-color);
 }
@@ -200,10 +200,12 @@ footer {
 }
 address {
   font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
-address .link:hover,
-address .link:focus {
+address:hover,
+address:focus {
   color: var(--accent-text-color);
 }
